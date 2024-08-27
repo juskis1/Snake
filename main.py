@@ -14,7 +14,7 @@ def game():
     screen.setup(width=600, height=600)
     screen.bgcolor("black")
     screen.title("Snake game")
-    screen.tracer(0)
+    screen.tracer(False)
     
     snake = Snake()
     food = Food()
