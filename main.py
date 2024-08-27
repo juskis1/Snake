@@ -9,15 +9,13 @@ import time
 icon = Screen()._root
 icon.iconbitmap("snake.ico")
 
-screen = Screen()
-screen.setup(width=600, height=600)
-screen.bgcolor("black")
-screen.title("Snake game")
-screen.tracer(0)
-
-
 def game():
-
+    screen = Screen()
+    screen.setup(width=600, height=600)
+    screen.bgcolor("black")
+    screen.title("Snake game")
+    screen.tracer(0)
+    
     snake = Snake()
     food = Food()
     scoreboard = Scoreboard()
