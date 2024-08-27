@@ -1,0 +1,6 @@
+.venv/
+build/
+dist/main.exe
+main.spec
+.idea/
+__pycache__/
